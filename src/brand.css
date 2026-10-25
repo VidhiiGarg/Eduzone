@@ -1,0 +1,9 @@
+.photo-credit-note{position:absolute;right:32px;bottom:33px;z-index:2;color:rgba(255,255,255,.72);font-size:8px;letter-spacing:.15em}
+.page-hero{position:relative}
+.home-faculty-photo{display:grid;place-items:center;background:linear-gradient(145deg,#f1edf1,#e7e0e8)}
+.home-faculty-photo .faculty-initials{width:82px;height:82px;border:1px solid #c8baca;border-radius:50%;display:grid;place-items:center;color:var(--purple);font:500 23px var(--serif)}
+.home-faculty-photo .portrait-note{bottom:12px}
+.course-photo-label{position:absolute;left:15px;bottom:14px;color:white;font-size:7px;letter-spacing:.14em;text-shadow:0 1px 5px rgba(0,0,0,.55)}
+.image-label:after{content:' · ILLUSTRATIVE';opacity:.85}
+.mission-image:after,.student-image:after{content:'ILLUSTRATIVE PHOTOGRAPHY';position:absolute;right:12px;top:12px;background:rgba(250,251,247,.9);color:var(--purple);padding:8px 10px;font-size:7px;letter-spacing:.12em}
+@media(max-width:760px){.photo-credit-note{right:20px;bottom:58px;font-size:7px}}
